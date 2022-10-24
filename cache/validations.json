@@ -1,0 +1,50 @@
+{
+  "version": "3.3",
+  "log": [
+    {
+      "HelloWorld": {
+        "src": "contracts\\helloWorld.sol:4",
+        "version": {
+          "withMetadata": "3be75f56280f36e55be7d93da2e1486c38e1259d546e75d0d9e0216daf7147d9",
+          "withoutMetadata": "be3a48fd8231c713622d207d778056f64a6e9fbbb4ddafd9fbef19f7dd624413",
+          "linkedWithoutMetadata": "be3a48fd8231c713622d207d778056f64a6e9fbbb4ddafd9fbef19f7dd624413"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "(string)",
+          "updateMessage(string)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "HelloWorld",
+            "src": "contracts\\helloWorld.sol:9"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "message",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_string_storage",
+              "contract": "HelloWorld",
+              "src": "contracts\\helloWorld.sol:5"
+            }
+          ],
+          "types": {
+            "t_string_storage": {
+              "label": "string",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.1",
+          "flat": true
+        },
+        "solcVersion": "0.8.17"
+      }
+    }
+  ]
+}
